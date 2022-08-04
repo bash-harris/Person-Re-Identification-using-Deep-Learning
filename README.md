@@ -1,1 +1,9 @@
 # Person-Re-Identification-using-Deep-Learning
+
+Person re-identification (re-ID) is the technique of correlating photos or videos of the same person captured from various perspectives and cameras. It has immense societal applications in our day to day life like video surveillance, culprit identification etc. Despite this, it has always remained a difficult process even with the recent progress, due to the significant differences in human looks from various capture angles. In object identification problems, negative training examples are the negative examples we provide our classifier at the start of the training process. Then we go out and run new data through our trained model, only to find that we've picked up on false positives. When these erroneous positives are added to our first training data as negative examples, they are referred to as hard negatives. 
+
+Existing deep metric learning-based re-ID algorithms frequently suffer from two flaws: 
+
+a) Most works based on pairwise or triplet constraints have delayed convergence and poor local optima and hard negative sample mining has been frequently used in existing studies. 
+
+b) Hard positive samples, on the other hand, which contribute to network training, have gotten insufficient attention. Therefore, we are proposing to develop an end-to-end approach to tackling the aforementioned problem by learning feature representation and distance metric together, by which similar samples will be kept closer together and dissimilar samples will be pushed farther away. This will result in a low-dimensional embedding space where person images can be nonlinearly mapped. We are also planning to develop the suggested technique using the inception architecture, test it on re-ID data sets, and compare them with our current state of the art methods.
